@@ -1,0 +1,39 @@
+
+
+
+1. Basic Computer Arch & Compiling Process
+      Process & Memory
+	  Code execution
+	  Overview of Compiler
+	  Compiling process
+2. Program Structure
+      include
+	  main
+	  function, function prototype + header file
+	  naming convention for function
+	  Preprocessor
+		macro #define
+		#include
+		#ifdef -> header protect
+3. Operators, Variables and Data types
+	  variables
+	  data types
+	  operators (and or, +, -, *, /, ++, -- +=...)
+4. Structural statement
+	  if-else
+	  switch
+	  while loop
+	  do-while loop
+	  for loop
+5. Array
+	  array in memory
+	  working with array
+6. Pointer
+	  pointer
+	  pointer and array
+7. More Data types 
+	  enum
+	  typedef
+	  struct
+8. Summary
+

@@ -1,0 +1,27 @@
+
+https://medium.freecodecamp.org/why-cant-a-domain-s-root-be-a-cname-8cbab38e5f5c
+
+http://wwwizer.com/naked-domain-redirect
+
+https://redirect.name/
+
+https://www.nakedssl.com/aws-s3
+
+/------------ SSO ----------------/
+
+https://dzone.com/articles/sso-login-key-benefits-and-implementation
+
+https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/
+
+https://www.okta.com/
+
+https://forum.serverless.com/t/auth0-vs-cognito/3160/11
+
+https://zapier.com/engineering/apikey-oauth-jwt/
+
+https://idratherbewriting.com/learnapidoc/docapis_more_about_authorization.html
+
+https://auth0.com/docs/protocols/oidc
+
+https://www.capterra.com/identity-management-software/
+

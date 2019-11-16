@@ -1,0 +1,64 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   char a[] = "abc";
+   int b[] = {0, 1, 2};
+   
+   cout << "Char --- " << sizeof(char) << endl;
+   for (int i = 0; *(a+i) != '\0'; i++) {
+    printf("%c \t %p \n", *(a+i), (a+i));   
+   }
+   
+   cout << "Int --- " << sizeof(int) << endl;
+   for (int i = 0; i < 3; i++) {
+    printf("%d \t %p \n", *(b+i), (b+i));   
+   }
+   
+   return 0;
+}
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   typedef struct {
+       char c1;
+       char c2;
+       int d1;
+       char c3;
+       char c4;
+       int d2;
+   } Test;
+   
+   Test t = {'a', 'b', 15, 'c', 'd', 16};
+   
+   printf("Size of Test is: %d bytes\n", sizeof(Test));
+   
+   printf("# ----------------------------\n");
+   
+   printf("char 1 is %c - addr is: %p \n", t.c1, &t.c1);
+   printf("char 2 is %c - addr is: %p \n", t.c2, &t.c2);
+   printf("int 1 is %d - addr is: %p \n", t.d1, &t.d1);
+   printf("char 3 is %c - addr is: %p \n", t.c3, &t.c3);
+   printf("char 4 is %c - addr is: %p \n", t.c4, &t.c4);
+   printf("int 2 is %d - addr is: %p \n", t.d2, &t.d2);
+   
+   printf("# ----------------------------\n");
+   
+   char* p = (char*) &t;
+   
+   printf("pointer to t is: %p, value is %c \n", p, *p);
+   printf("pointer to t + 1 is: %p , value is %c \n", p+1, *(p+1));
+   printf("pointer to t + 2 is: %p , value is %c \n", p+2, *(p+2));
+   printf("pointer to t + 3 is: %p , value is %c \n", p+3, *(p+3));
+   printf("pointer to t + 4 is: %p , value is %d \n", p+4, *(p+4));
+   
+   
+   return 0;
+}
+
